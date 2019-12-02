@@ -16,4 +16,6 @@
 
 游戏截图及效果：
 ![游戏效果](https://github.com/GoldMinerXun/2048webgame/blob/master/img/img1.png)
+![游戏效果](https://github.com/GoldMinerXun/2048webgame/blob/master/img/img2.png)
+
 
