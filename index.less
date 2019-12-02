@@ -1,0 +1,112 @@
+
+body,html{
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#start{
+    // transform: translate(50%,50%);
+    margin: auto;
+    
+}
+.outer-wrap{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.score-wrap{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    .score-item{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        background-color: #bbada0;
+        color: white;
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 10px;
+        .score-number{
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+}
+.wrap{
+    padding: 10px 10px;
+    background-color: #bbada0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    .inner-wrap{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .cell{
+                width: 120px;
+                height:120px;
+                background:rgba(238, 228, 218, 0.35);
+                border: 5px solid #bbada0;
+                font-size: 50px;
+                font-weight: 600;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition-property: transform;
+                transition: 100ms ease-in-out;
+                transform: translate(0px,0px);
+            }
+            .active-cell{
+                background-color: #eee4da;
+            }
+            .bignumber-cell{
+                color: white;
+            }
+            .new-cell{
+                background-color: #f2b179;
+            }
+            .value-8{
+                background-color: #f2b179;
+            }
+            .value-16{
+                background-color: #f59563;
+            }
+            .value-32{
+                background-color: #f67c5f;
+            }
+            .value-64{
+                background-color: #f65e3b;
+            }
+            .value-128{
+                background-color: #edcf72;
+            }
+            .value-256{
+                background-color: #edcc61;
+            }
+            .value-512{
+                background-color: #ECC850;
+            }
+            .value-1024{
+                background-color: #EDC53F;
+            }
+            .value-2048{
+                background-color: #E9B501;
+            }
+        }
+    }
+}
