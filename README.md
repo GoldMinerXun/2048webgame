@@ -15,5 +15,5 @@
 - 判断游戏是否失败；
 
 游戏截图及效果：
-![图片alt](https://github.com/GoldMinerXun/2048webgame.git/master/img1.png)
+![图片alt](https://github.com/GoldMinerXun/2048webgame/blob/master/img1.png)
 
